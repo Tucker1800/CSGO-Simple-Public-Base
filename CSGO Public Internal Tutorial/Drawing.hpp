@@ -3,7 +3,7 @@
 class cDraw
 {
 public:
-	//defining fonts
+	//defining font
 	unsigned long DefaultFont;
 	//creating fonts
 	void Start();
