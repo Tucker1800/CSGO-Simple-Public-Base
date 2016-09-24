@@ -4,18 +4,120 @@
     <Filter Include="CSGO">
       <UniqueIdentifier>{e24d621f-1992-47df-ba9d-28066ce52738}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CSGO\SDK">
+      <UniqueIdentifier>{5490e79c-aa55-430b-8ce3-5a08e8c5e32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\Drawing">
+      <UniqueIdentifier>{ee99094e-b16e-4c99-b9ee-d85de0d4cdaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\Vector">
+      <UniqueIdentifier>{2314bdf2-dd5f-4216-904f-447f36c11d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\Interfaces">
+      <UniqueIdentifier>{b3de784b-10ed-4207-adab-c830baaa60e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\Utilities">
+      <UniqueIdentifier>{ec72554c-da50-404a-a7b7-6fff30883764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\VMTHook">
+      <UniqueIdentifier>{c02ee5e6-06f9-4092-8d08-5f0d9483ce94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\CHEAT">
+      <UniqueIdentifier>{d9d321d9-0cc6-460f-8559-0f3fbd958ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\CHEAT\Hooks">
+      <UniqueIdentifier>{5d9f2bf6-351b-4af5-9cc5-273f8b2ce72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\Interfaces\IPanel">
+      <UniqueIdentifier>{0f12577f-d7ad-49e4-a306-a41366c9974b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\Valve">
+      <UniqueIdentifier>{84e25ae7-166a-4d90-8850-55b903bdc8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK\Interfaces\ISurface">
+      <UniqueIdentifier>{c27e0a76-dd88-4baf-b0fd-b89aad23357e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\CHEAT\Hooks\PaintTraverse">
+      <UniqueIdentifier>{f5918147-b736-45cd-bcaf-df9b3de6ced7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\CHEAT\Visuals">
+      <UniqueIdentifier>{f77e762d-6244-4ff8-8abc-2ebe558b5173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\CHEAT\Hacks">
+      <UniqueIdentifier>{d16525c9-67d2-4873-ae0e-088abf93a2c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DLLMain.cpp">
-      <Filter>CSGO</Filter>
-    </ClCompile>
     <ClCompile Include="SDK.cpp">
-      <Filter>CSGO</Filter>
+      <Filter>CSGO\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>CSGO\SDK\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>CSGO\CHEAT\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>CSGO\SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IPanel.cpp">
+      <Filter>CSGO\SDK\Interfaces\IPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="ISurface.cpp">
+      <Filter>CSGO\SDK\Interfaces\ISurface</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>CSGO\CHEAT\Hooks\PaintTraverse</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>CSGO\CHEAT\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>CSGO\CHEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>CSGO\CHEAT\Visuals</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SDK.hpp">
-      <Filter>CSGO</Filter>
+      <Filter>CSGO\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.hpp">
+      <Filter>CSGO\SDK\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>CSGO\SDK\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.hpp">
+      <Filter>CSGO\SDK\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>CSGO\SDK\VMTHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>CSGO\CHEAT\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.hpp">
+      <Filter>CSGO\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.hpp">
+      <Filter>CSGO\SDK\Interfaces\IPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.hpp">
+      <Filter>CSGO\SDK\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.hpp">
+      <Filter>CSGO\SDK\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.hpp">
+      <Filter>CSGO\SDK\Interfaces\ISurface</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.hpp">
+      <Filter>CSGO\CHEAT\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.hpp">
+      <Filter>CSGO\CHEAT\Visuals</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

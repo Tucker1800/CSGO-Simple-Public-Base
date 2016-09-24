@@ -116,11 +116,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Color.hpp" />
+    <ClInclude Include="Defines.hpp" />
+    <ClInclude Include="Drawing.hpp" />
+    <ClInclude Include="Hacks.hpp" />
+    <ClInclude Include="Hooks.hpp" />
+    <ClInclude Include="Interfaces.hpp" />
+    <ClInclude Include="IPanel.hpp" />
+    <ClInclude Include="ISurface.hpp" />
     <ClInclude Include="SDK.hpp" />
+    <ClInclude Include="Utilities.hpp" />
+    <ClInclude Include="Vector.hpp" />
+    <ClInclude Include="Visuals.hpp" />
+    <ClInclude Include="VMTHook.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="Drawing.cpp" />
+    <ClCompile Include="Hacks.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="IPanel.cpp" />
+    <ClCompile Include="ISurface.cpp" />
+    <ClCompile Include="PaintTraverse.cpp" />
     <ClCompile Include="SDK.cpp" />
+    <ClCompile Include="Visuals.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
